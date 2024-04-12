@@ -1,3 +1,6 @@
+console.log("jj");
+
+
 let string = "";
 let buttons = document.getElementsByTagName("button");
 Array.from(buttons).forEach((button) => {
