@@ -3,7 +3,7 @@ let buttons = document.getElementsByTagName("button");
 Array.from(buttons).forEach((button) => {
   button.addEventListener("click", (e) => {
     let buttonText = e.target.innerHTML.trim();
-    if (buttonText === "X") {
+    if (buttonText === "x") {
       string = string + "*";
     } else if (buttonText === "=") {
       string = eval(string);
